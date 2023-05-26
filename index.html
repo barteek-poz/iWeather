@@ -1,83 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/3195ee76b4.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./media-queries.css">
-    <title>iWeather</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="app_title"><h1>iWeather</h1></div>
-      <div class="search_bar">
-        <input
-          type="text"
-          class="search_input"
-          placeholder="Enter your location"
-        /><i class="fa-solid fa-magnifying-glass search_icon icon"></i>
+<html lang="en,pl" ,>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/3195ee76b4.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./media-queries.css">
+  <title>iWeather</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="app_title">
+      <h1>iWeather</h1>
+    </div>
+    <div class="search_bar">
+      <input type="text" class="search_input" placeholder="Enter your location" /><i
+        class="fa-solid fa-magnifying-glass search_icon icon"></i>
+    </div>
+    <div class="location">
+      <i class="fa-solid fa-location-dot location_icon"></i>
+      <p class="location_name"></p>
+    </div>
+    <div class="temperature_img">
+      <img src="./img/default_location.png" alt="weather_img" class="img_main" />
+    </div>
+    <div class="temperature_main">
+      <p class="temperature_value"></p>
+      <p class="temperature_units">°C</p>
+    </div>
+    <div class="weather_description">
+      <p class="weather_code"></p>
+    </div>
+    <div class="other_values">
+      <div class="wind">
+        <i class="fa-solid fa-wind wind_icon icon"></i>
+        <p class="wind_value"></p>
+        <p class="wind_units">km/h</p>
       </div>
-      <div class="location">
-        <i class="fa-solid fa-location-dot location_icon"></i>
-        <p class="location_name"></p>
-      </div>
-      <div class="temperature_img">
-        <img
-          src="./img/default_location.png"
-          alt="weather_img"
-          class="img_main"
-        />
-      </div>
-      <div class="temperature_main">
-        <p class="temperature_value"></p>
-        <p class="temperature_units">°C</p>
-      </div>
-      <div class="weather_description"><p class="weather_code"></p></div>
-      <div class="other_values">
-        <div class="wind">
-          <i class="fa-solid fa-wind wind_icon icon"></i>
-          <p class="wind_value"></p>
-          <p class="wind_units">km/h</p>
-        </div>
-        <div class="rain">
-          <i class="fa-solid fa-cloud-rain rain_icon icon"></i>
-          <p class="rain_value"></p>
-          <p class="rain_units">%</p>
-        </div>
-      </div>
-      <div class="days">
-        <div class="day day_1">
-          <p class="day1_name day_name">MON</p>
-          <img src="" alt="day1_weather_img" class="day1_img day_img" />
-          
-        </div>
-        <div class="day day_2">
-          <p class="day2_name day_name">TUE</p>
-          <img src="" alt="day2_weather_img" class="day2_img day_img" />
-          
-        </div>
-        <div class="day day_3">
-          <p class="day3_name day_name">THU</p>
-          <img src="" alt="day3_weather_img" class="day3_img day_img" />
-          
-        </div>
-      </div>
-      <div class="api_logo">
-        <p class="api_info">Data provided by</p>
-        <img src="./img/open_meteo_logo.png" alt="open_meteo_logo" class="api_img"/>
+      <div class="rain">
+        <i class="fa-solid fa-cloud-rain rain_icon icon"></i>
+        <p class="rain_value"></p>
+        <p class="rain_units">%</p>
       </div>
     </div>
-    <script src="./main.js"></script>
-  </body>
+    <div class="days">
+      <div class="day day_1">
+        <p class="day1_name day_name">MON</p>
+        <img src="" alt="day1_weather_img" class="day1_img day_img" />
+
+      </div>
+      <div class="day day_2">
+        <p class="day2_name day_name">TUE</p>
+        <img src="" alt="day2_weather_img" class="day2_img day_img" />
+
+      </div>
+      <div class="day day_3">
+        <p class="day3_name day_name">THU</p>
+        <img src="" alt="day3_weather_img" class="day3_img day_img" />
+
+      </div>
+    </div>
+    <div class="api_logo">
+      <p class="api_info">Data provided by</p>
+      <img src="./img/open_meteo_logo.png" alt="open_meteo_logo" class="api_img" />
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
 </html>
