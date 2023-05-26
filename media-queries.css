@@ -1,0 +1,139 @@
+/* 1550 px */
+
+@media only screen and (max-width: 97em) {
+	.wrapper {
+		width: 35%;
+	}
+}
+
+/* 1350 px */
+
+@media only screen and (max-width: 85em) {
+	.wrapper {
+		width: 40%;
+	}
+}
+
+/* 1150 px */
+
+@media only screen and (max-width: 72em) {
+	.wrapper {
+		width: 45%;
+	}
+}
+
+/* 950 px */
+
+@media only screen and (max-width: 60em) {
+	.wrapper {
+		width: 55%;
+	}
+}
+
+/* 800 px */
+
+@media only screen and (max-width: 50em) {
+	html {
+		font-size: 56.25%;
+	}
+
+	.wrapper {
+		width: 60%;
+	}
+
+	.api_info {
+		font-size: 1.6rem;
+	}
+	.api_img {
+		width: 30%;
+	}
+}
+
+/* 700 px */
+
+@media only screen and (max-width: 43.75em) {
+	.wrapper {
+		width: 70%;
+	}
+}
+
+/* 550 px */
+
+@media only screen and (max-width: 35em) {
+	.wrapper {
+		width: 80%;
+		padding: 3rem;
+	}
+
+	.search_input {
+		font-size: 2.2rem;
+	}
+
+	.days {
+		gap: 2.6rem;
+	}
+
+	.day {
+		width: 25%;
+	}
+}
+
+/* 450 px */
+
+@media only screen and (max-width: 28.125em) {
+	.wrapper {
+		width: 85%;
+		padding: 4rem;
+	}
+
+	.search_input {
+		font-size: 2rem;
+	}
+	.icon {
+		font-size: 2rem;
+	}
+
+	.day {
+		width: 30%;
+	}
+}
+
+/* 400 px */
+
+@media only screen and (max-width: 25em) {
+	.wrapper {
+		width: 85%;
+		padding: 4rem;
+	}
+}
+
+/* 350 px */
+
+@media only screen and (max-width: 21.86em) {
+	.wrapper {
+		padding: 3rem;
+		margin-top: 10rem;
+	}
+	.search_input {
+		font-size: 1.8rem;
+	}
+
+	.location {
+		font-size: 2.6rem;
+	}
+
+	.temperature_value {
+		font-size: 5rem;
+	}
+
+	.other_values {
+		gap: 6rem;
+	}
+
+	.days {
+		gap: 1.8rem;
+	}
+	.day {
+		width: 80%;
+	}
+}
